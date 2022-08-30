@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
 /**
- * Patch to create Customer Attribute
+ * Patch to create Product Attribute
  *
- * Creates b2b_user user defined customer attribute
+ * 
  */
 
 namespace ArseniyInk\TaskTwo\Setup\Patch\Data;
@@ -59,7 +59,7 @@ class AddTestProductInsuranceAttribute implements DataPatchInterface
     }
 
     /**
-     * Create strategic account customer attribute
+     * Create product attribute
      * @return void
      * @throws LocalizedException
      * @throws Zend_Validate_Exception

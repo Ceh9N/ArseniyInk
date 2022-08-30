@@ -1,0 +1,12 @@
+<?php
+/** @var \ArseniyInk\TaskTwo\Block\Index $block */
+$options = $block->getOptions();
+?>
+<div class="insurance">
+    <label for="new_test_product_insurance_attribute"><?= __('Insurance'); ?></label>
+        <select name="new_test_product_insurance_attribute" id="new_test_product_insurance_attribute">
+            <?php foreach ($options as $option): ?>
+                <option value="<?= $option['value']; ?>"><?= $option['label']; ?></option>
+            <?php endforeach; ?>
+        </select>
+</div>

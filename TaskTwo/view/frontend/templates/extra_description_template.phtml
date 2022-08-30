@@ -1,0 +1,6 @@
+<h1>Short Description</h1>
+<?php
+if ($_extraDescription= $block->getCurrentCategory()->getData('extra_description')){
+    echo $this->helper('Magento\Catalog\Helper\Output')->categoryAttribute($block->getCurrentCategory(), $_extraDescription, 'extra_description');
+}
+?>

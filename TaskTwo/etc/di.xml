@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="change_product_price" type="ArseniyInk\TaskTwo\Plugin\Product\AfterAddToCart" sortOrder="2" />
+    </type>
+</config>
